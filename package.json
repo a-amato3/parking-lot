@@ -2,5 +2,8 @@
   "devDependencies": {
     "@types/mocha": "^10.0.1",
     "jest": "^29.5.0"
+  },
+  "scripts": {
+    "test": "jest --verbose --testMatch **/*.parking-lot.test.ts"
   }
 }
